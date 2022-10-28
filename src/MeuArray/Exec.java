@@ -1,28 +1,30 @@
 package MeuArray;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Exec {
     public static void main(String[] args) {
-       //declarando array de uma dimensao
+        //list
+        List<Integer> lista = new ArrayList<>();
 
-        int[] a = new int[4];
-        
+        lista.add(1);
+        lista.add(2);
+        lista.add(3);
+        lista.add(9);
+        lista.add(5);
 
-        int [] r = new int [44], k = new int[23];
+        System.out.println("todos elementos da lista"+ lista);
 
-        int[] iniciavalor ={2, 44, 666, 7, 8, 9, 13, 432};
+        int tamanho = lista.size();
 
-        int[]arrayExemploNInteiro;
-        arrayExemploNInteiro = new int[5];
-        arrayExemploNInteiro [0] = 100;
-        arrayExemploNInteiro [1] = 85;
-        arrayExemploNInteiro [2] = 88;
-        arrayExemploNInteiro [3] = 93;
-        arrayExemploNInteiro [4] = 123;
+        System.out.println("tamanho total dos elementos = " + tamanho);
 
-        System.out.println(arrayExemploNInteiro[2]);
-        System.out.println(arrayExemploNInteiro[4]);
 
-        System.out.println(iniciavalor[2]);
+
+
+
 
 
 
